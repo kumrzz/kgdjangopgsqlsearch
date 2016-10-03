@@ -1,0 +1,20 @@
+{% extends "srchdemoapp/base.html" %}
+{% load static %}
+
+{% block title %} Listings {% endblock %}
+
+{% block content %}
+    <div id="sidebar">
+        {% include "srchdemoapp/listings/sidebar.html" %}
+    </div>
+
+    <div id="main" class="product-list">
+        <h1>{% if category %}{{ category.name }}{% else %}Listings{% endif %}</h1>
+        {% for listing in listings %}
+            <div class="item">
+                {{ listing.name }}<br>
+                ${{ listing.price }}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

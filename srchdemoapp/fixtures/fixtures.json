@@ -1,0 +1,168 @@
+[
+  {
+    "pk": 1,
+    "model": "srchdemoapp.category",
+    "fields": {
+        "name": "Cars",
+		"slug": "Cars"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "srchdemoapp.category",
+    "fields": {
+        "name": "Bikes",
+		"slug": "bikes"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "srchdemoapp.category",
+    "fields": {
+        "name": "Real Estate",
+		"slug": "realestate"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "srchdemoapp.category",
+    "fields": {
+        "name": "Food",
+		"slug": "food"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "srchdemoapp.category",
+    "fields": {
+        "name": "Electronics",
+		"slug": "electronics"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "BMW Z4",
+        "price": 50000,
+        "category": 1
+    }
+  },
+  {
+    "pk": 2,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Charley Scooterson",
+        "price": 5000,
+        "category": 2
+    }
+  },
+  {
+    "pk": 3,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Trump Towers",
+        "price": 50000000,
+        "category": 3
+    }
+  },
+  {
+    "pk": 4,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Dodgy council flat",
+        "price": 200000,
+        "category": 3
+    }
+  },
+  {
+    "pk": 5,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Boris Bike",
+        "price": 0.5,
+        "category": 2
+    }
+  },
+  {
+    "pk": 6,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Sarnie",
+        "price": 3.50,
+        "category": 4
+    }
+  },
+  {
+    "pk": 7,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "birthday cake",
+        "price": 200,
+        "category": 4
+    }
+  },
+  {
+    "pk": 8,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Telly",
+        "price": 1000,
+        "category": 5
+    }
+  },
+  {
+    "pk": 9,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Microwave oven",
+        "price": 15,
+        "category": 5
+    }
+  },
+  {
+    "pk": 10,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "Jaguar XK8",
+        "price": 70000,
+        "category": 1
+    }
+  },
+  {
+    "pk": 11,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "not really food",
+        "price": 0,
+        "category": 1
+    }
+  },
+  {
+    "pk": 12,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "not a car",
+        "price": 0,
+        "category": 4
+    }
+  },
+  {
+    "pk": 13,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "not RealEstate",
+        "price": 0,
+        "category": 5
+    }
+  },
+  {
+    "pk": 14,
+    "model": "srchdemoapp.listing",
+    "fields": {
+        "name": "NOT electronics",
+        "price": 0,
+        "category": 4
+    }
+  }
+]

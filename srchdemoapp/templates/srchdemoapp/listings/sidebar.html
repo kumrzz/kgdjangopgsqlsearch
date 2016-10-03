@@ -1,0 +1,29 @@
+<h3>Categories:</h3>
+<ul>
+    <li {% if not category %}class="selected"{% endif %}>
+        <a href="{% url "srchdemoapp:srchdemoapp_main" %}">All</a>
+    </li>
+{% for cat in categories %}
+    <li {% if cat.name == category.name %}class="selected"{% endif %}>
+        <a href="{{ cat.get_absolute_url }}">{{ cat.name }}</a>
+    </li>
+{% endfor %}
+</ul>
+
+{% if cat_results or lst_results %}search results:{% endif %}
+{% if cat_results %}Categories:<br>
+{% for rez in cat_results %}
+    <a href="{{ rez.get_absolute_url }}">{{ rez.name }}</a><br>
+{% endfor %}
+{% endif %}
+{% if lst_results %}Listings:<br>
+{% for rez in lst_results %}
+    {{ rez.name }}<br>
+{% endfor %}
+{% endif %}
+
+<form method="get" action="/srchdemoapp/mktsearch/">
+<label for="id_q">search parameters:</label>
+           <input type="text" name="q" id="id_q"/>
+           <input type="submit" value="click to search"/>
+</form>
