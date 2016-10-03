@@ -2,7 +2,7 @@ simple listing/category search app to demo the full test search features newly i
 Useful as a <b>very very</b> basic demo to illustrate the full MVC implementation of the functionality.
 
 requires postgresql because full text search is not covered quite as much in the default mysql
-useful link for pgsql installation/setup:<h5># https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/optional_postgresql_installation/</h5>
+useful link for pgsql installation/setup:<h5>https://djangogirls.gitbooks.io/django-girls-tutorial-extensions/content/optional_postgresql_installation/</h5>
 Note I have hence updated DATABASES in settings.py accordingly
 
 To get this working, clone this git:<br>
